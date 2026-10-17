@@ -1,0 +1,31 @@
+# ===== 临时文件 =====
+tmp/
+*.lnk
+*.log
+*.txt.tmp
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyc
+.esptool_lib/
+__pycache__
+
+# ===== ESP-IDF 构建产物 =====
+build/
+sdkconfig.old
+managed_components/
+dependencies.lock
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ===== 敏感信息 =====
+# WiFi 凭据 / 设备密钥不要提交
+config.json
+*.key
